@@ -1,0 +1,25 @@
+﻿@using Firma.Models.PoslovnaLogika
+@model IEnumerable<Zaposlenik>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @ViewBag.Title
+        @foreach(Zaposlenik s in Model)
+        {
+            <h2>@s.ime</h2>
+            <h2>@s.prezime</h2>
+        }
+    </div>
+</body>
+</html>
