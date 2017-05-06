@@ -15,5 +15,7 @@ namespace Firma.Models
         public DbSet<Poslovni_partner> poslovniparner { get; set; }
         public DbSet<Tipovi_placanja> tipovi_placanja { get; set; }
         public DbSet<Zaposlenik> zaposlenik { get; set; }
+        public DbSet<Fraktura> racun { get; set; }
+
     }
 }

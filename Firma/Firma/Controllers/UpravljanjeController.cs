@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using Firma.Models;
 using Firma.Models.PoslovnaLogika;
+using System.Data.Entity;
 
 namespace Firma.Controllers
 {
@@ -12,8 +13,8 @@ namespace Firma.Controllers
         UpravljanjeController : Controller
     {
         private bazaContext artikliDb = new bazaContext();
-        
 
+        private bazaContext racuniDB = new bazaContext();
         // GET: Upravljanje
         public ActionResult Index()
         {
@@ -21,12 +22,57 @@ namespace Firma.Controllers
             return View(artikli);
         }
 
-        public ActionResult Unos()
+        public ActionResult Azuriraj(int? Id)
         {
+            Fraktura racun;
 
-            return View();
+            if(Id == null)
+            {
+                racun = new Fraktura();
+                ViewBag.Title = "Upis novog racuna";
+            }
+            else
+            {
+                //pronađi prvi račun
+                racun = racuniDB.racun.Find(Id);
+                if( racun == null)
+                {
+                    return HttpNotFound();
+                }
+                ViewBag.Title = "Ažuriranje računa";
+            }
+
+            return View(racun);
+
+            
         }
 
+
+        //validacija
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Azuriraj(
+            [Bind(Include = "id_racun,ime_artikla,id_proizvod,cijena,porez,ukupna_cijena,ukupna_kolicina")] Fraktura racun)
+        {
+            if (ModelState.IsValid)
+            {
+                if (racun.id_racun != 0)
+                {
+                    racuniDB.Entry(racun).State = EntityState.Modified;
+
+                }
+                else
+                {
+                    racuniDB.racun.Add(racun);
+
+                }
+                racuniDB.SaveChanges();
+                
+            }
+            
+            ViewBag.Title = "Ažuriranje podataka o racunu";
+            return View(racun);
+        }
 
     }
 }
