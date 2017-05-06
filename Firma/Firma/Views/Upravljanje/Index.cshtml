@@ -30,12 +30,13 @@
                     <td>@a.opis</td>
                     <td>@a.cijena</td>
                     <td>@a.porez</td>
+                    <td>@Html.ActionLink("Ažuriraj", "Azuriraj", new { id_artikla = a.id_artikla })</td>
 
                 </tr>
 
             }
         </table>
-
+        
 
     </div>
 </body>
