@@ -41,6 +41,9 @@ namespace Firma.Controllers
                 }
                 ViewBag.Title = "Ažuriranje računa";
             }
+            var racuntitle = artikliDb.artikli.ToList();
+            racuntitle.Add(new Artikli { id_artikla = 1 });
+            ViewBag.RacunTitle = racuntitle;
 
             return View(racun);
 
