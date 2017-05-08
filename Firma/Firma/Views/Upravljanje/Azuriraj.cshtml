@@ -22,7 +22,9 @@
             <tr>
                 <td>@Html.LabelFor(model => model.ime_artikla, new { @class = "control-label" })</td>
                 <td>
-                    @Html.EditorFor(model => model.ime_artikla, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.DropDownListFor(model => model.ime_artikla,
+                   new SelectList(ViewBag.RacunTitle,"Id",""),
+                   new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => model.ime_artikla, "", new { @class = "text-danger" })
                 </td>
             </tr>
