@@ -59,18 +59,18 @@ CREATE TABLE `poslovni_partner` (
   `id_poslovni_partner` int(11) NOT NULL DEFAULT '0',
   `naziv` varchar(255) COLLATE cp1250_croatian_ci DEFAULT NULL,
   `adresa` varchar(255) COLLATE cp1250_croatian_ci DEFAULT NULL,
+  `oib` int(11) DEFAULT NULL,
   `telefon` varchar(255) COLLATE cp1250_croatian_ci DEFAULT NULL,
   `email` varchar(255) COLLATE cp1250_croatian_ci DEFAULT NULL,
   `oznaka_banke` varchar(255) COLLATE cp1250_croatian_ci DEFAULT NULL,
   `SWIFT_broj_banke,` varchar(255) COLLATE cp1250_croatian_ci DEFAULT NULL,
   `podaci_o_osnivanju` varchar(255) COLLATE cp1250_croatian_ci DEFAULT NULL,
   `naziv_odgovorne_osobe` varchar(255) COLLATE cp1250_croatian_ci DEFAULT NULL,
-  PRIMARY KEY (`id_poslovni_partner`)
+  PRIMARY KEY (`id_poslovni_partner`),
+  UNIQUE KEY `id_poslovni_partner` (`id_poslovni_partner`)
 ) ENGINE=InnoDB DEFAULT CHARSET=cp1250 COLLATE=cp1250_croatian_ci CHECKSUM=1 DELAY_KEY_WRITE=1 ROW_FORMAT=DYNAMIC;
 
 /*Data for the table `poslovni_partner` */
-
-insert  into `poslovni_partner`(`id_poslovni_partner`,`naziv`,`adresa`,`telefon`,`email`,`oznaka_banke`,`SWIFT_broj_banke,`,`podaci_o_osnivanju`,`naziv_odgovorne_osobe`) values (100010,'SVIJET MEDIJA d.o.o. za trgovinu, promet i usluge','Antuna Bauera 7, 10.000 Zagreb','+38501456846','info@svijet.medija@hr',' HR2723600001101334586','ZABAHR2X','Trgovački sud u Zagrebu, reg. 1-50280; Temeljni kapital: 2.820.000 kn uplaćen u cijelosti; 2.2.2005.','Petar Božić');
 
 /*Table structure for table `tipovi_placanja` */
 
