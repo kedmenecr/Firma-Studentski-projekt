@@ -165,7 +165,7 @@
     <Compile Include="Models\PoslovnaLogika\Admin.cs" />
     <Compile Include="Models\Baza\bazaContext.cs" />
     <Compile Include="Models\PoslovnaLogika\Artikli.cs" />
-    <Compile Include="Models\PoslovnaLogika\Fraktura.cs" />
+    <Compile Include="Models\PoslovnaLogika\Faktura.cs" />
     <Compile Include="Models\PoslovnaLogika\Poslovni_partner.cs" />
     <Compile Include="Models\PoslovnaLogika\Tipovi_placanja.cs" />
     <Compile Include="Models\PoslovnaLogika\Zaposlenik.cs" />
@@ -215,6 +215,7 @@
     <Content Include="Views\Admin\Pop2.cshtml" />
     <Content Include="Views\Upravljanje\Index.cshtml" />
     <Content Include="Views\Upravljanje\Azuriraj.cshtml" />
+    <Content Include="Views\Upravljanje\PopisArtikla.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

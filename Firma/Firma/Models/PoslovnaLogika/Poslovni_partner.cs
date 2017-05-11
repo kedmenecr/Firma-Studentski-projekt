@@ -11,7 +11,7 @@ namespace Firma.Models.PoslovnaLogika
     public class Poslovni_partner
     {
        [Key]
-        public int poslovni_partner { get; set; }
+        public int id_poslovni_partner { get; set; }
         public string naziv { get; set; }
         public string adresa { get; set; }
         public string telefon { get; set; }

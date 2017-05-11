@@ -1,5 +1,5 @@
 ﻿@using Firma.Models.PoslovnaLogika
-@model IEnumerable<Zaposlenik>
+@model Artikli
 
 @{
     Layout = null;
@@ -13,22 +13,25 @@
     <title>Index</title>
 </head>
 <body>
-    <div>
-        @ViewBag.Title
-        @foreach(Zaposlenik s in Model)
-        {
-            <h2>@s.ime</h2>
-            <h2>@s.prezime</h2>
-        }
-    </div>
-    <div class="row">
-        <div class="col-md-2">
-            Obrazovna ustanova:
-        </div>
-        <div class="col-md-10">
-          
-        </div>
-    </div>
+@using (Html.BeginForm())
+{
+    // @Html.AntiForgeryToken()  generates a hidden form anti-forgery
+    // token that must match in the Edit method of the Movies controller.
+    @Html.AntiForgeryToken()
 
+    <table>
+        <tr>
+            <td>@Html.LabelFor(model => model.ime_artikla ,new { @class = "control-label" })</td>
+            <td>
+                @Html.DropDownListFor(model => model.ime_artikla,
+             new SelectList(ViewBag.Art_oda, "value", "text"), new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ime_artikla, "", new { @class = "text-danger" })
+            </td>
+
+        </tr>
+    </table>
+
+}
+    
 </body>
 </html>

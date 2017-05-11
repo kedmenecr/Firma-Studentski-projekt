@@ -11,23 +11,29 @@ namespace Firma.Controllers
 {
     public class AdminController : Controller
     {
-        private bazaContext adminiDb = new bazaContext();
+        private bazaContext racundb = new bazaContext();
+        private bazaContext artikli_odabirdb = new bazaContext();
 
         private bazaContext zaposleniciDb = new bazaContext();
+        private bazaContext racuniDB = new bazaContext();
 
         // GET: Admin
 
-            public ActionResult Pop2()
+        public ActionResult Pop2()
         {
-            var zap = from z in zaposleniciDb.zaposlenik select z;
-
-            return View(zap);
+            var artikli = from a in racundb.artikli select a;
+            var zap = zaposleniciDb.zaposlenik.ToList().Find(x => x.id_zaposlenik == 1);
+            ViewBag.Zap = zap.ime + " " + zap.prezime;
+            var odabirArtikla = artikli_odabirdb.artikli.ToList();
+            ViewBag.Art_oda = odabirArtikla;
+            return View(artikli);
+            
         }
- 
+
         public ActionResult Popis()
         {
-            var popis = from s in adminiDb.admini select s;
-            ViewBag.Title = "Popis admina";
+            var popis = from s in artikli_odabirdb.artikli select s;
+            ViewBag.Title = "Popis proizvoda";
             return View(popis);
         }
         public ActionResult Azuriraj(int? Id)
@@ -43,7 +49,7 @@ namespace Firma.Controllers
             }
             else
             {
-                s = adminiDb.admini.Find(Id);
+                s = racundb.admini.Find(Id);
                 //nadji prvog studenta koji ima jedna id
                 if (s == null)
                 {
@@ -70,15 +76,15 @@ namespace Firma.Controllers
             {
                 if (s.id_admin != 0)
                 {
-                    adminiDb.Entry(s).State = EntityState.Modified;
+                    racundb.Entry(s).State = EntityState.Modified;
 
                 }
                 else
                 {
-                    adminiDb.admini.Add(s);
+                    racundb.admini.Add(s);
 
                 }
-                adminiDb.SaveChanges();
+                racundb.SaveChanges();
                 return RedirectToAction("Popis");
             }
           

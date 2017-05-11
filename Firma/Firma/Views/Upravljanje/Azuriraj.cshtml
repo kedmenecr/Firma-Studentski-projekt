@@ -1,5 +1,5 @@
 ﻿@using Firma.Models.PoslovnaLogika
-@model Fraktura
+@model Faktura
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -21,12 +21,7 @@
 
             <tr>
                 <td>@Html.LabelFor(model => model.ime_artikla, new { @class = "control-label" })</td>
-                <td>
-                    @Html.DropDownListFor(model => model.ime_artikla,
-                   new SelectList(ViewBag.RacunTitle,"Id",""),
-                   new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.ime_artikla, "", new { @class = "text-danger" })
-                </td>
+                
             </tr>
             <tr>
                 <td>@Html.LabelFor(model => model.id_proizvod, new { @class = "control-label" })</td>

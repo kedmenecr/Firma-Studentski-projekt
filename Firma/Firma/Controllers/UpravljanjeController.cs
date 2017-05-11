@@ -13,28 +13,47 @@ namespace Firma.Controllers
         UpravljanjeController : Controller
     {
         private bazaContext artikliDb = new bazaContext();
-
-        private bazaContext racuniDB = new bazaContext();
+        private bazaContext poslovnipartnetDb = new bazaContext();
+        private bazaContext racuniDb = new bazaContext();
+        private bazaContext zaposleniciDb = new bazaContext();
         // GET: Upravljanje
-        public ActionResult Index()
+        public ActionResult Index(int? idArt)
         {
-            var artikli = from z in artikliDb.artikli select z;
+            //proslijeđujemo artikli ,zaposlenika i firmu koja plača
+            var art = artikliDb.artikli.ToList().Find(x => x.id_artikla == idArt);
+            var zap = zaposleniciDb.zaposlenik.ToList().Find(x => x.id_zaposlenik == 1);
+            ViewBag.Zap = zap.ime + " " + zap.prezime;
+            //var par = poslovnipartnetDb.poslovniparner.ToList().Find(x => x.id_poslovni_partner == idPar);
+            return View();
+        }
+        public ActionResult OdabirPartnera()
+        {
+            return View();
+        }
+
+
+        //vrača nam popis svih artikala koje imamo na skladištu 
+        public ActionResult PopisArtikla()
+        {
+            var artikli = from z in racuniDb.artikli select z;
+
+            ViewBag.Title = "Popis artikla";
             return View(artikli);
         }
 
         public ActionResult Azuriraj(int? Id)
         {
-            Fraktura racun;
+            Faktura racun;
 
             if(Id == null)
             {
-                racun = new Fraktura();
+                racun = new Faktura();
                 ViewBag.Title = "Upis novog racuna";
             }
             else
             {
                 //pronađi prvi račun
-                racun = racuniDB.racun.Find(Id);
+                racun = racuniDb.racun.Find(Id);
                 if( racun == null)
                 {
                     return HttpNotFound();
@@ -55,21 +74,21 @@ namespace Firma.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Azuriraj(
-            [Bind(Include = "id_racun,ime_artikla,id_proizvod,cijena,porez,ukupna_cijena,ukupna_kolicina")] Fraktura racun)
+            [Bind(Include = "id_racun,ime_artikla,id_proizvod,cijena,porez,ukupna_cijena,ukupna_kolicina")] Faktura racun)
         {
             if (ModelState.IsValid)
             {
                 if (racun.id_racun != 0)
                 {
-                    racuniDB.Entry(racun).State = EntityState.Modified;
+                    racuniDb.Entry(racun).State = EntityState.Modified;
 
                 }
                 else
                 {
-                    racuniDB.racun.Add(racun);
+                    racuniDb.racun.Add(racun);
 
                 }
-                racuniDB.SaveChanges();
+                racuniDb.SaveChanges();
                 
             }
             

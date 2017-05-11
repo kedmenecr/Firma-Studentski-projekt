@@ -8,7 +8,7 @@ namespace Firma.Models.PoslovnaLogika
 {
 
     [Table("fraktura")]
-    public class Fraktura
+    public class Faktura
     {
         [Key]
         [Display(Name = "Id Racuna")]

@@ -1,0 +1,36 @@
+﻿@using Firma.Models.PoslovnaLogika
+@model IEnumerable<Artikli>
+
+
+@using (Html.BeginForm())
+{
+    // @Html.AntiForgeryToken()  generates a hidden form anti-forgery
+    // token that must match in the Edit method of the Movies controller.
+    @Html.AntiForgeryToken()
+    <table>
+        <tr>
+            <td>ID artikla</td>
+            <td>Ime Artikla</td>
+            <td>Opis Artikla</td>
+            <td>Cijena</td>
+            <td>Porez</td>
+        </tr>
+
+        @foreach(Artikli a in Model)
+        {
+            <tr>
+                <td>@a.id_artikla</td>
+                <td>@a.ime_artikla</td>
+                <td>@a.opis</td>
+                <td>@a.cijena kn</td>
+                <td>@a.porez %</td>
+            </tr>
+
+        }
+    </table>
+
+
+
+@ViewBag.Title
+
+}
