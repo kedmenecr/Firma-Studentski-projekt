@@ -14,7 +14,6 @@ namespace Firma.Models.PoslovnaLogika
         public int id_poslovni_partner { get; set; }
         public string naziv { get; set; }
         public string adresa { get; set; }
-        public int oib { get; set; } 
         public string telefon { get; set; }
         public string email { get; set; }
         public string oznaka_banke { get; set; }
