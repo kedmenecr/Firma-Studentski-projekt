@@ -1,47 +1,15 @@
 ﻿@using Firma.Models.PoslovnaLogika
-@model IEnumerable<Artikli>
-@{
-    Layout = null;
-}
+@model Artikli
 
-
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <div> 
-        
-        <table cellpadding="1" border="1">
-            <tr>
-            <td>Id Artikla</td>
-            <td>Artikl</td>
-            <td>Opis</td>
-            <td>Cijena</td>
-            <td>Porez</td>
-            </tr>
-
-            @foreach (Artikli a in Model)
-            {
-                <tr>
-                    <td>@a.id_artikla</td>
-                    <td>@a.ime_artikla</td>
-                    <td>@a.opis</td>
-                    <td>@a.cijena</td>
-                    <td>@a.porez</td>
-                    <td>@Html.ActionLink("Ažuriraj", "Azuriraj", new { id_artikla = a.id_artikla })</td>
-
-                </tr>
-
-            }
+<div class="form-horizontal">
+    <table class=" table">
+        <tr>
+            <td>@Html.LabelFor(model => model.ime_artikla, new { @class = "control-label" })</td>
+            <td>
+                @Html.DropDownListFor(model => model.ime_artikla,
+                    new SelectList(ViewBag.artDrop), new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ime_artikla, "", new { @class = "text-danger" })
+            </td>
+        </tr>
         </table>
-
-
-        
-
     </div>
-</body>
-</html>

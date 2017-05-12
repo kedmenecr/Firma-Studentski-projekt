@@ -16,20 +16,32 @@ namespace Firma.Controllers
         private bazaContext poslovnipartnetDb = new bazaContext();
         private bazaContext racuniDb = new bazaContext();
         private bazaContext zaposleniciDb = new bazaContext();
+
+        
         // GET: Upravljanje
         public ActionResult Index(int? idArt)
         {
             //proslijeđujemo artikli ,zaposlenika i firmu koja plača
             var art = artikliDb.artikli.ToList().Find(x => x.id_artikla == idArt);
+
+            var artDrop = artikliDb.artikli.ToList();
+            
+            ViewBag.artDrop = artDrop;
+
             var zap = zaposleniciDb.zaposlenik.ToList().Find(x => x.id_zaposlenik == 1);
             ViewBag.Zap = zap.ime + " " + zap.prezime;
-            //var par = poslovnipartnetDb.poslovniparner.ToList().Find(x => x.id_poslovni_partner == idPar);
-            return View();
+            
+            return View(art);
         }
-        public ActionResult OdabirPartnera()
+        public ActionResult OdabirPartnera(int idPar)
         {
-            return View();
+
+            var par = poslovnipartnetDb.poslovniparner.ToList().Find(x => x.id_poslovni_partner == idPar);
+            return View(par);
+
+
         }
+     
 
 
         //vrača nam popis svih artikala koje imamo na skladištu 

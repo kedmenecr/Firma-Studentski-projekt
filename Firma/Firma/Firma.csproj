@@ -167,6 +167,7 @@
     <Compile Include="Models\PoslovnaLogika\Artikli.cs" />
     <Compile Include="Models\PoslovnaLogika\Faktura.cs" />
     <Compile Include="Models\PoslovnaLogika\Poslovni_partner.cs" />
+    <Compile Include="Models\PoslovnaLogika\Racun.cs" />
     <Compile Include="Models\PoslovnaLogika\Tipovi_placanja.cs" />
     <Compile Include="Models\PoslovnaLogika\Zaposlenik.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
