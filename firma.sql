@@ -63,7 +63,7 @@ CREATE TABLE `poslovni_partner` (
   `telefon` varchar(255) COLLATE cp1250_croatian_ci DEFAULT NULL,
   `email` varchar(255) COLLATE cp1250_croatian_ci DEFAULT NULL,
   `oznaka_banke` varchar(255) COLLATE cp1250_croatian_ci DEFAULT NULL,
-  `SWIFT_broj_banke,` varchar(255) COLLATE cp1250_croatian_ci DEFAULT NULL,
+  `SWIFT_broj_banke` varchar(255) COLLATE cp1250_croatian_ci DEFAULT NULL,
   `podaci_o_osnivanju` varchar(255) COLLATE cp1250_croatian_ci DEFAULT NULL,
   `naziv_odgovorne_osobe` varchar(255) COLLATE cp1250_croatian_ci DEFAULT NULL,
   PRIMARY KEY (`id_poslovni_partner`),
