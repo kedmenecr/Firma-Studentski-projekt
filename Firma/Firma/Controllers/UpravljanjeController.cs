@@ -13,7 +13,7 @@ namespace Firma.Controllers
         UpravljanjeController : Controller
     {
         private bazaContext artikliDb = new bazaContext();
-        private bazaContext poslovnipartnetDb = new bazaContext();
+        private bazaContext poslovnipartnerDb = new bazaContext();
         private bazaContext racuniDb = new bazaContext();
         private bazaContext zaposleniciDb = new bazaContext();
 
@@ -36,10 +36,18 @@ namespace Firma.Controllers
         public ActionResult OdabirPartnera(int idPar)
         {
 
-            var par = poslovnipartnetDb.poslovniparner.ToList().Find(x => x.id_poslovni_partner == idPar);
+            var par = poslovnipartnerDb.poslovni_partner.ToList().Find(x => x.id_poslovni_partner == idPar);
             return View(par);
 
 
+        }
+
+        //Vrača popis poslovnih partnera
+        public ActionResult PopisPoslovniPartneri()
+        {
+            var partneri = from p in poslovnipartnerDb.poslovni_partner select p;
+            ViewBag.Title = "Popis partnera";
+            return View(partneri);
         }
      
 

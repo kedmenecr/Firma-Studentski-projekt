@@ -217,6 +217,7 @@
     <Content Include="Views\Upravljanje\Index.cshtml" />
     <Content Include="Views\Upravljanje\Azuriraj.cshtml" />
     <Content Include="Views\Upravljanje\PopisArtikla.cshtml" />
+    <Content Include="Views\Upravljanje\PopisPoslovniPartneri.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
