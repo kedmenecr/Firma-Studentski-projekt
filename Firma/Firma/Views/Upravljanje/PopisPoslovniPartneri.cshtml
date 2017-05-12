@@ -1,0 +1,32 @@
+﻿@using  Firma.Models.PoslovnaLogika
+@model IEnumerable<Poslovni_partner>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <table>
+        <tr>
+            <td>Id</td>
+            <td>Naziv</td>
+            <td>Adresa</td>
+            <td>OIB</td>
+            <td>Mobitel</td>
+            <td>Kontakt osoba</td>
+            <td>Opis</td>
+        </tr>
+
+        @foreach (Poslovni_partner p in Model) //podesiti sirinu stupaca, dizajn tablice
+        {
+            <tr>
+                <td>@p.id_poslovni_partner</td>
+                <td>@p.naziv</td>
+                <td>@p.adresa</td>
+                <td>@p.oib</td>
+                <td>@p.telefon</td>
+                <td>@p.naziv_odgovorne_osobe</td>
+                <td>@p.podaci_o_osnivanju</td>
+            </tr>
+        }
+
+    </table>
+}
