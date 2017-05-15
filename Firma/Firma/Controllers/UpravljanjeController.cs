@@ -22,14 +22,17 @@ namespace Firma.Controllers
         public ActionResult Index()
         {
 
+
+
+
             var art = (from a in artikliDb.artikli
-                       //from p in poslovnipartnetDb.poslovni_partner
-                       join ar in artikliDb.racun on a.id_artikla equals ar.id_art
+                           //from p in poslovnipartnetDb.poslovni_partner
+                       join ar in artikliDb.racun on a.id_artikla equals ar.id_artikla
                        //join pp in poslovnipartnetDb.racun on p.id_poslovni_partner equals pp.id_part
-                       where ar.id_art == a.id_artikla
-                       select new { ar.id_art}).ToList();
-            
-            
+                       where ar.id_artikla == a.id_artikla
+                       select new { ar.id_artikla }).ToList();
+
+
             return View(art);   
         }
         public ActionResult OdabirPartnera(int idPar)

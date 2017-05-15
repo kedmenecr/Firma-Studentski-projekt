@@ -12,8 +12,8 @@ namespace Firma.Models.PoslovnaLogika
     {
         [Key]
         public int id_racun { get; set; }
-        public int  id_art { get; set; }
-        public int id_part { get; set; }
+        public int id_artikla { get; set; }
+        public int id_poslovni_partner { get; set; }
 
     }
 }
