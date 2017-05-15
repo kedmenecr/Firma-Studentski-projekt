@@ -1,15 +1,13 @@
 ﻿@using Firma.Models.PoslovnaLogika
-@model Artikli
+@model IEnumerable<Racun>
 
 <div class="form-horizontal">
     <table class=" table">
-        <tr>
-            <td>@Html.LabelFor(model => model.ime_artikla, new { @class = "control-label" })</td>
-            <td>
-                @Html.DropDownListFor(model => model.ime_artikla,
-                    new SelectList(ViewBag.artDrop), new { @class = "form-control" })
-                @Html.ValidationMessageFor(model => model.ime_artikla, "", new { @class = "text-danger" })
-            </td>
-        </tr>
+      @foreach(Racun r in Model)
+      {
+          <tr>
+              <td>@r.id_art</td>
+          </tr>
+      }
         </table>
     </div>

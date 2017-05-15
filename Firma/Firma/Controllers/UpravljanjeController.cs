@@ -19,24 +19,23 @@ namespace Firma.Controllers
 
         
         // GET: Upravljanje
-        public ActionResult Index(int? idArt)
+        public ActionResult Index()
         {
-            //proslijeđujemo artikli ,zaposlenika i firmu koja plača
-            var art = artikliDb.artikli.ToList().Find(x => x.id_artikla == idArt);
 
-            var artDrop = artikliDb.artikli.ToList();
+            var art = (from a in artikliDb.artikli
+                       //from p in poslovnipartnetDb.poslovni_partner
+                       join ar in artikliDb.racun on a.id_artikla equals ar.id_art
+                       //join pp in poslovnipartnetDb.racun on p.id_poslovni_partner equals pp.id_part
+                       where ar.id_art == a.id_artikla
+                       select new { ar.id_art}).ToList();
             
-            ViewBag.artDrop = artDrop;
-
-            var zap = zaposleniciDb.zaposlenik.ToList().Find(x => x.id_zaposlenik == 1);
-            ViewBag.Zap = zap.ime + " " + zap.prezime;
             
-            return View(art);
+            return View(art);   
         }
         public ActionResult OdabirPartnera(int idPar)
         {
 
-            var par = poslovnipartnetDb.poslovniparner.ToList().Find(x => x.id_poslovni_partner == idPar);
+            var par = poslovnipartnetDb.poslovni_partner.ToList().Find(x => x.id_poslovni_partner == idPar);
             return View(par);
 
 
@@ -65,7 +64,7 @@ namespace Firma.Controllers
             else
             {
                 //pronađi prvi račun
-                racun = racuniDb.racun.Find(Id);
+                racun = racuniDb.faktura.Find(Id);
                 if( racun == null)
                 {
                     return HttpNotFound();
@@ -97,7 +96,7 @@ namespace Firma.Controllers
                 }
                 else
                 {
-                    racuniDb.racun.Add(racun);
+                    racuniDb.faktura.Add(racun);
 
                 }
                 racuniDb.SaveChanges();

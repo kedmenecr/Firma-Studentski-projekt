@@ -7,7 +7,7 @@ using System.Web;
 
 namespace Firma.Models.PoslovnaLogika
 {
-    [Table("racun")]
+    [Table("faktura")]
     public class Racun
     {
         [Key]
