@@ -35,10 +35,10 @@ namespace Firma.Controllers
 
             return View(art);   
         }
-        public ActionResult OdabirPartnera(int idPar)
+        public ActionResult PopisPartnera()
         {
+            var par = from z in poslovnipartnetDb.poslovni_partner select z;
 
-            var par = poslovnipartnetDb.poslovni_partner.ToList().Find(x => x.id_poslovni_partner == idPar);
             return View(par);
 
 
