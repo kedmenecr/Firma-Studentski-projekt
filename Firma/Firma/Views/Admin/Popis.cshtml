@@ -1,25 +1,54 @@
-﻿@using Firma.Models.PoslovnaLogika
-@model IEnumerable<Admin>
+﻿@model IEnumerable<Firma.Models.PoslovnaLogika.Zaposlenik>
 
 @{
-    Layout = null;
+    ViewBag.Title = "Popis";
 }
 
-<!DOCTYPE html>
+<h2>Popis</h2>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <div>
-        @ViewBag.Title
-        @foreach(Admin a in Model)
-        {
-            <h2>@a.id_admin</h2>
-            <h2>@a.ime</h2>
-        }
-    </div>
-</body>
-</html>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.prezime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.adresa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mobitel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lozinka)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.prezime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.adresa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mobitel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lozinka)
+        </td>
+        <td>
+            @Html.ActionLink("Azuriraj", "Azuriraj", new { id=item.id_zaposlenik }) |
+            @Html.ActionLink("Obrisi", "Obrisi", new { id=item.id_zaposlenik })
+        </td>
+    </tr>
+}
+
+</table>

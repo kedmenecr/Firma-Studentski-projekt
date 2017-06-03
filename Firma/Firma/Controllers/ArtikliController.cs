@@ -10,13 +10,13 @@ using Firma.Models.PoslovnaLogika;
 
 namespace Firma.Controllers
 {
-    public class AdminController : Controller
+    public class ArtikliController : Controller
     {
         private bazaContext dB = new bazaContext();
-        // GET: Admin
+        // GET: Artikli
         public ActionResult Index()
         {
-            ViewBag.Title = "Baza zaposlenika";
+            ViewBag.Title = "Baza artikla";
             return View();
         }
 
@@ -25,27 +25,27 @@ namespace Firma.Controllers
         // Metoda koja se poziva prilikom http GET requesta
         public ActionResult Azuriraj(int? id)
         {
-            Zaposlenik z;
+            Artikli a;
 
             if (id == null)
             {
                 // return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
                 // Iskoristiti ćemo pozivanje Azuriraj metode bez Id-a za upis novog studenta.
-                z = new Zaposlenik();
+                a = new Artikli();
                 ViewBag.Title = "Upis novog zaposlenika";
             }
             else
             {
-                z = dB.zaposlenik.Find(id);
-                if (z == null)
+                a = dB.artikli.Find(id);
+                if (a == null)
                 {
                     return HttpNotFound();
                 }
-                ViewBag.Title = "Ažuriranje podataka o zaposleniku";
+                ViewBag.Title = "Ažuriranje podataka o artiklu";
             }
 
 
-            return View(z);
+            return View(a);
         }
 
         // Preopterećujemo (overloading) Azuriraj() metodu. 
@@ -55,17 +55,17 @@ namespace Firma.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Azuriraj(
-            [Bind(Include = "id_zaposlenik,ime,prezime,prezime,adresa,mobitel,lozinka")] Zaposlenik z)
+            [Bind(Include = "id_artikla,ime_artikla,opis,cijena,porez")] Artikli a)
         {
 
             // provjera da li je model prošao validaciju
             if (ModelState.IsValid)
             {
-                if (z.id_zaposlenik != 0)
+                if (a.id_artikla != 0)
                 {
                     // EF - označavanje da je zapis izmjenjen i da se treba napraviti update.
                     // Treba eksplicitno označiti ako je entitet kreiran izvan postojećeg koteksta.
-                    dB.Entry(z).State = EntityState.Modified;
+                    dB.Entry(a).State = EntityState.Modified;
                 }
                 else
                 {
@@ -80,15 +80,15 @@ namespace Firma.Controllers
                     //     noviId = 1;
                     // s.Id = noviId;
 
-                    dB.zaposlenik.Add(z);
+                    dB.artikli.Add(a);
                 }
                 dB.SaveChanges();
 
                 return RedirectToAction("Popis");
             }
 
-            ViewBag.Title = "Ažuriranje podataka o zaposleniku";
-            return View(z);
+            ViewBag.Title = "Ažuriranje podataka o artiklu";
+            return View(a);
         }
 
         // Brisanje studenta
@@ -99,13 +99,13 @@ namespace Firma.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Zaposlenik z = dB.zaposlenik.Find(id);
-            if (z == null)
+            Artikli a = dB.artikli.Find(id);
+            if (a == null)
             {
                 return HttpNotFound();
             }
             ViewBag.Title = "Brisanje studenta";
-            return View(z);
+            return View(a);
         }
 
         // POST
@@ -126,10 +126,10 @@ namespace Firma.Controllers
         public ActionResult Popis(string naziv)
         {
 
-            var popis = from s in dB.zaposlenik select s;
+            var popis = from a in dB.artikli select a;
             // filtriranja
             if (!String.IsNullOrEmpty(naziv))
-                popis = popis.Where(st => (st.ime + " " + st.prezime).ToUpper().Contains(naziv.ToUpper()));
+                popis = popis.Where(st => (st.ime_artikla).ToUpper().Contains(naziv.ToUpper()));
             return View(popis);
         }
 
@@ -143,3 +143,6 @@ namespace Firma.Controllers
         }
     }
 }
+
+
+

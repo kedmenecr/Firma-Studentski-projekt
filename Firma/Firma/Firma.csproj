@@ -210,10 +210,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Admin\Azuriraj.cshtml" />
-    <Content Include="Views\Admin\Popis.cshtml" />
-    <Content Include="Views\Admin\Obrisi.cshtml" />
-    <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Artikli\Index.cshtml" />
     <Content Include="Views\Artikli\Azuriraj.cshtml" />
     <Content Include="Views\Artikli\Obrisi.cshtml" />
@@ -223,6 +219,10 @@
     <Content Include="Views\Partneri\Obrisi.cshtml" />
     <Content Include="Views\Partneri\Popis.cshtml" />
     <Content Include="Views\Partneri\Details.cshtml" />
+    <Content Include="Views\Admin\Azuriraj.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\Obrisi.cshtml" />
+    <Content Include="Views\Admin\Popis.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
