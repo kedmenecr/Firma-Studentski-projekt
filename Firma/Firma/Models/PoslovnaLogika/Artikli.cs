@@ -17,5 +17,9 @@ namespace Firma.Models.PoslovnaLogika
         public decimal cijena { get; set; }
         public int porez { get; set; }
 
+        public static implicit operator List<object>(Artikli v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

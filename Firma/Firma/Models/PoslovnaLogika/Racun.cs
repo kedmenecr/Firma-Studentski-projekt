@@ -7,7 +7,7 @@ using System.Web;
 
 namespace Firma.Models.PoslovnaLogika
 {
-    [Table("faktura")]
+    [Table("racun")]
     public class Racun
     {
         [Key]
@@ -15,5 +15,6 @@ namespace Firma.Models.PoslovnaLogika
         public int id_artikla { get; set; }
         public int id_poslovni_partner { get; set; }
 
+       
     }
 }

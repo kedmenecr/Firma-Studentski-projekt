@@ -1,13 +1,25 @@
 ﻿@using Firma.Models.PoslovnaLogika
-@model IEnumerable<Racun>
+@model RacunViewModel
 
-<div class="form-horizontal">
-    <table class=" table">
-      @foreach(Racun r in Model)
+@using (Html.BeginForm())
+{
+    // @Html.AntiForgeryToken()  generates a hidden form anti-forgery
+    // token that must match in the Edit method of the Movies controller.
+    @Html.AntiForgeryToken()
+    <table>
+        <tr>
+            <td>ID artikla</td>
+            <td>ID partnera</td>
+            
+        </tr>
+
+      @foreach(var a  in Model)
       {
           <tr>
-              <td>@r.id_art</td>
+              <td>@a.artikli</td>
           </tr>
       }
-        </table>
-    </div>
+
+
+    </table>
+}

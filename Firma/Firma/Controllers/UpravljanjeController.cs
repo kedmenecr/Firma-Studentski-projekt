@@ -12,34 +12,30 @@ namespace Firma.Controllers
     public class 
         UpravljanjeController : Controller
     {
-        private bazaContext artikliDb = new bazaContext();
-        private bazaContext poslovnipartnetDb = new bazaContext();
-        private bazaContext racuniDb = new bazaContext();
-        private bazaContext zaposleniciDb = new bazaContext();
 
-        
+        private bazaContext dB = new bazaContext();
+
+
         // GET: Upravljanje
-        public ActionResult Index()
+        public ActionResult Index(int? id)
         {
+            RacunViewModel rvm = new RacunViewModel();
+            rvm.artikli = dB.artikli.ToList();
+            rvm.partneri = dB.poslovni_partner.ToList();
+            rvm.racuni = dB.racun.ToList();
 
 
+           
 
 
-            var art = (from a in artikliDb.artikli
-                           //from p in poslovnipartnetDb.poslovni_partner
-                       join ar in artikliDb.racun on a.id_artikla equals ar.id_artikla
-                       //join pp in poslovnipartnetDb.racun on p.id_poslovni_partner equals pp.id_part
-                       where ar.id_artikla == a.id_artikla
-                       select new { ar.id_artikla }).ToList();
-
-
-            return View(art);   
+            return View(rvm);
+            //art
         }
         public ActionResult PopisPartnera()
         {
-            var par = from z in poslovnipartnetDb.poslovni_partner select z;
+            var par = from z in dB.poslovni_partner select z;
 
-            return View(par);
+            return View(par.SingleOrDefault());
 
 
         }
@@ -49,7 +45,14 @@ namespace Firma.Controllers
         //vrača nam popis svih artikala koje imamo na skladištu 
         public ActionResult PopisArtikla()
         {
-            var artikli = from z in racuniDb.artikli select z;
+            var artikli = from z in dB.artikli select z;
+
+            ViewBag.Title = "Popis artikla";
+            return View(artikli.SingleOrDefault());
+        }
+        public ActionResult PopisaPartnera1()
+        {
+            var artikli = from z in dB.artikli select z;
 
             ViewBag.Title = "Popis artikla";
             return View(artikli);
@@ -57,30 +60,32 @@ namespace Firma.Controllers
 
         public ActionResult Azuriraj(int? Id)
         {
-            Faktura racun;
+            RacunViewModel racun;
 
             if(Id == null)
             {
-                racun = new Faktura();
+                racun = new RacunViewModel();
                 ViewBag.Title = "Upis novog racuna";
             }
             else
             {
                 //pronađi prvi račun
-                racun = racuniDb.faktura.Find(Id);
-                if( racun == null)
-                {
-                    return HttpNotFound();
-                }
+                //racun = dB.Find(Id);
+                //if (racun == null)
+                //{
+                //    return HttpNotFound();
+                //}
                 ViewBag.Title = "Ažuriranje računa";
             }
-            var racuntitle = artikliDb.artikli.ToList();
+            var racuntitle = dB.artikli.ToList();
             racuntitle.Add(new Artikli { id_artikla = 1 });
             ViewBag.RacunTitle = racuntitle;
 
-            return View(racun);
+            return View();
+            //racun
 
-            
+
+
         }
 
 
@@ -94,15 +99,15 @@ namespace Firma.Controllers
             {
                 if (racun.id_racun != 0)
                 {
-                    racuniDb.Entry(racun).State = EntityState.Modified;
+                    dB.Entry(racun).State = EntityState.Modified;
 
                 }
                 else
                 {
-                    racuniDb.faktura.Add(racun);
+                    dB.faktura.Add(racun);
 
                 }
-                racuniDb.SaveChanges();
+                dB.SaveChanges();
                 
             }
             
