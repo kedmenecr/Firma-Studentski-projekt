@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Firma.Models.PoslovnaLogika.Artikli>
+
+@{
+    ViewBag.Title = "Popis";
+}
+
+<h2>Popis</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ime_artikla)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.opis)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cijena)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.porez)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ime_artikla)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.opis)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cijena)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.porez)
+            </td>
+            <td>
+                @Html.ActionLink("Azuriraj", "Azuriraj", new { id = item.id_artikla }) |
+                @Html.ActionLink("Obrisi", "Obrisi", new { id = item.id_artikla })
+            </td>
+        </tr>
+    }
+
+</table>
