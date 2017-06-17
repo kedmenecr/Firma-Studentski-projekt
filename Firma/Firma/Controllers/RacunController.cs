@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace Firma.Controllers
 {
+    [Authorize(Roles ="Admin, Zaposlenik")]
     public class RacunController : Controller
     {
         // GET: Racun

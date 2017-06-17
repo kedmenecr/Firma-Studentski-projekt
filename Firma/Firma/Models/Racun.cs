@@ -18,6 +18,6 @@ namespace Firma.Models.PoslovnaLogika
         [Display(Name = "ID partnera")]
         public int id_poslovni_partner { get; set; }
 
-       
+
     }
 }

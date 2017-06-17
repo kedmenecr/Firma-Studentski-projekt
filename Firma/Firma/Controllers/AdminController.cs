@@ -7,12 +7,17 @@ using System.Web.Mvc;
 using Firma.Models;
 using System.IO;
 using Firma.Models.PoslovnaLogika;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNet.Identity;
 
 namespace Firma.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class AdminController : Controller
     {
         private bazaContext dB = new bazaContext();
+        ApplicationDbContext context = new ApplicationDbContext();
+
         // GET: Admin
         public ActionResult Index()
         {
@@ -131,6 +136,46 @@ namespace Firma.Controllers
             if (!String.IsNullOrEmpty(naziv))
                 popis = popis.Where(st => (st.ime + " " + st.prezime).ToUpper().Contains(naziv.ToUpper()));
             return View(popis);
+        }
+
+        public ActionResult CreateRole()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult NewRole(FormCollection form)
+        {
+            string rolename = form["RoleName"];
+            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
+            if (!roleManager.RoleExists(rolename))
+            {
+                //Napravi novu rolu
+                var role = new IdentityRole(rolename);
+                roleManager.Create(role);
+            }
+            return View("Index");
+        }
+
+        // Dodaj rolu zaposleniku 
+        public ActionResult AssignRole()
+        {
+            ViewBag.Roles = context.Roles.Select(r => new SelectListItem { Value = r.Name.ToString(), Text = r.Name.ToString() }).ToList();
+            return View();
+        }
+        // Dodaj rolu zaposleniku 
+        [HttpPost]
+        public ActionResult AssignRole(FormCollection form)
+        {
+            string usrname = form["txtUserName"];
+            string rolname = form["RoleName"];
+            ApplicationUser user = context.Users.Where(u => u.UserName.Equals(usrname, StringComparison.CurrentCultureIgnoreCase)).FirstOrDefault();
+            var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
+            userManager.AddToRole(user.Id, rolname);
+
+
+            return View("Index");
+
+
         }
 
         protected override void Dispose(bool disposing)

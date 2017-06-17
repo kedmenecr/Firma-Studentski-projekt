@@ -9,8 +9,9 @@ namespace Firma.Models.PoslovnaLogika
 {
     [Table("admin")]
     public class Admin
-    {   [Key]
-        [Display(Name ="ID")]
+    {
+        [Key]
+        [Display(Name = "ID")]
         public int id_admin { get; set; }
         [Display(Name = "Ime")]
         public string ime { get; set; }

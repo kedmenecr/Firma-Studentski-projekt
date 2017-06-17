@@ -11,20 +11,20 @@ namespace Firma.Models.PoslovnaLogika
     public class Artikli
     {
         [Key]
-        [Display(Name ="Id")]
+        [Display(Name = "Id")]
         public int id_artikla { get; set; }
 
-        [Display(Name ="Ime")]
+        [Display(Name = "Ime")]
         [Required(AllowEmptyStrings = false, ErrorMessage = "{0} je obavezan podatak")]
         public string ime_artikla { get; set; }
         [Display(Name = "Opis")]
         [Required(AllowEmptyStrings = false, ErrorMessage = "{0} je obavezan podatak")]
         public string opis { get; set; }
-        [Display(Name ="Cijena")]
+        [Display(Name = "Cijena")]
         public decimal cijena { get; set; }
-        [Display(Name ="Porez")]
+        [Display(Name = "Porez")]
         public int porez { get; set; }
 
-        
+
     }
 }

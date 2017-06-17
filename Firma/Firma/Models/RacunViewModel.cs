@@ -10,7 +10,7 @@ namespace Firma.Models.PoslovnaLogika
         public List<Racun> racuni { get; set; }
         public List<Artikli> artikli { get; set; }
         public List<Poslovni_partner> partneri { get; set; }
-    
-   
+
+
     }
 }

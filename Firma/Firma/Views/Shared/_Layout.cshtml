@@ -3,9 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Web aplikacija za firmu</title>
+    <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -24,8 +25,8 @@
                     <li>@Html.ActionLink("Artikli", "Index", "Artikli")</li>
                     <li>@Html.ActionLink("Partneri", "Index", "Partneri")</li>
                     <li>@Html.ActionLink("Racuni", "Index", "Racun")</li>
-                    
                 </ul>
+                @Html.Partial("_LoginPartial")
             </div>
         </div>
     </div>

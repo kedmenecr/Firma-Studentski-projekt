@@ -10,7 +10,7 @@ namespace Firma.Models.PoslovnaLogika
     [Table("poslovni_partner")]
     public class Poslovni_partner
     {
-       [Key]
+        [Key]
         [Display(Name = "ID")]
         public int id_poslovni_partner { get; set; }
         [Display(Name = "Naziv")]

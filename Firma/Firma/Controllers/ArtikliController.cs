@@ -10,6 +10,7 @@ using Firma.Models.PoslovnaLogika;
 
 namespace Firma.Controllers
 {
+    [Authorize(Roles ="Admin, Zaposlenik")]
     public class ArtikliController : Controller
     {
         private bazaContext dB = new bazaContext();

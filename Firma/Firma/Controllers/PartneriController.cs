@@ -10,6 +10,7 @@ using Firma.Models.PoslovnaLogika;
 
 namespace Firma.Controllers
 {
+    [Authorize(Roles ="Admin, Zaposlenik")]
     public class PartneriController : Controller
     {
         private bazaContext dB = new bazaContext();
@@ -25,7 +26,7 @@ namespace Firma.Controllers
         // Metoda koja se poziva prilikom http GET requesta
         public ActionResult Azuriraj(int? id)
         {
-             Poslovni_partner p;
+            Poslovni_partner p;
 
             if (id == null)
             {

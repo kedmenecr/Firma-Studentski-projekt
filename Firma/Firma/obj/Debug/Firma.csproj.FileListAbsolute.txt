@@ -1,84 +1,155 @@
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\ApplicationInsights.config
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\csc.exe
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\csc.exe.config
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\csc.rsp
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\csi.exe
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\csi.rsp
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\System.AppContext.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\vbc.exe
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\vbc.exe.config
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\vbc.rsp
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\VBCSCompiler.exe
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Firma.dll.config
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Firma.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Firma.pdb
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Antlr3.Runtime.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Microsoft.AI.Web.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Microsoft.ApplicationInsights.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Newtonsoft.Json.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\System.Web.Helpers.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\System.Web.Mvc.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\System.Web.Optimization.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\System.Web.Razor.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\System.Web.WebPages.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\System.Web.WebPages.Razor.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\WebGrease.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\System.Web.Helpers.xml
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\System.Web.Mvc.xml
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\System.Web.Optimization.xml
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\System.Web.Razor.xml
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\System.Web.WebPages.xml
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\System.Web.WebPages.Razor.xml
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Antlr3.Runtime.pdb
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Newtonsoft.Json.xml
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Microsoft.ApplicationInsights.xml
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\Microsoft.AI.Web.xml
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\obj\Debug\Firma.csprojResolveAssemblyReference.cache
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\obj\Debug\Firma.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\obj\Debug\Firma.pdb
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\EntityFramework.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\EntityFramework.SqlServer.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\MySql.Data.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\MySql.Data.Entity.EF6.dll
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\EntityFramework.xml
-C:\Users\Roberto\Desktop\Faks\Firma\Firma\bin\EntityFramework.SqlServer.xml
-E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\obj\Debug\Firma.csprojResolveAssemblyReference.cache
-E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\obj\Debug\Firma.dll
-E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\obj\Debug\Firma.pdb
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\ApplicationInsights.config
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\csc.exe
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\csc.exe.config
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\csc.rsp
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\csi.exe
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\csi.rsp
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.AppContext.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Collections.Immutable.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.IO.FileSystem.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Reflection.Metadata.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\vbc.exe
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\vbc.exe.config
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\vbc.rsp
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\VBCSCompiler.exe
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\VBCSCompiler.exe.config
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Firma.dll.config
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Firma.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Firma.pdb
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Antlr3.Runtime.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\EntityFramework.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\EntityFramework.SqlServer.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AI.DependencyCollector.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AI.Web.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AI.WindowsServer.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.ApplicationInsights.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Security.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Security.Google.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Web.Infrastructure.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Newtonsoft.Json.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Owin.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Web.Helpers.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Web.Mvc.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Web.Optimization.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Web.Razor.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Web.WebPages.Deployment.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Web.WebPages.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Web.WebPages.Razor.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\WebGrease.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Web.Helpers.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Web.Mvc.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Web.Optimization.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Web.Razor.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Web.WebPages.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Web.WebPages.Deployment.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Web.WebPages.Razor.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Antlr3.Runtime.pdb
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Newtonsoft.Json.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\EntityFramework.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\EntityFramework.SqlServer.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Security.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Security.Google.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.ApplicationInsights.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AI.DependencyCollector.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AI.WindowsServer.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\Microsoft.AI.Web.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\obj\Debug\Firma.csprojResolveAssemblyReference.cache
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\obj\Debug\Firma.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\obj\Debug\Firma.pdb
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\csi.exe.config
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Console.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Diagnostics.Process.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.IO.Compression.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.IO.Pipes.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Security.AccessControl.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Security.Claims.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Threading.Thread.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.ValueTuple.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Xml.XPath.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Data.SQLite.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Data.SQLite.EF6.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Data.SQLite.Linq.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Data.SQLite.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Data.SQLite.dll.config
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\x86\sqlcese40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\x86\sqlceqp40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\x86\sqlceme40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\x86\sqlceer40EN.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\x86\sqlcecompact40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\x86\sqlceca40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\amd64\sqlcese40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\amd64\sqlceqp40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\amd64\sqlceme40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\amd64\sqlceer40EN.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\amd64\sqlcecompact40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\amd64\sqlceca40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\EntityFramework.SqlServerCompact.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\System.Data.SqlServerCe.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\EntityFramework.SqlServerCompact.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\MySql.Data.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma\Firma\Firma\bin\MySql.Data.Entity.EF6.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\ApplicationInsights.config
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\csc.exe
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\csc.exe.config
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\csc.rsp
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\csi.exe
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\csi.exe.config
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\csi.rsp
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -90,12 +161,33 @@ E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\Microsoft.Win32.Primitives.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.AppContext.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Collections.Immutable.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Console.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Diagnostics.Process.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.IO.Compression.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.IO.FileSystem.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.IO.Pipes.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Reflection.Metadata.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Security.AccessControl.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Security.Claims.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Threading.Thread.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.ValueTuple.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Xml.XPath.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\System.Xml.XPath.XDocument.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\vbc.exe
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\vbc.exe.config
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\roslyn\vbc.rsp
@@ -104,9 +196,28 @@ E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Firma.dll.config
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Firma.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Firma.pdb
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\x86\sqlcese40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\x86\sqlceqp40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\x86\sqlceme40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\x86\sqlceer40EN.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\x86\sqlcecompact40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\x86\sqlceca40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\amd64\sqlcese40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\amd64\sqlceqp40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\amd64\sqlceme40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\amd64\sqlceer40EN.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\amd64\sqlcecompact40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\amd64\sqlceca40.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Antlr3.Runtime.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\EntityFramework.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\EntityFramework.SqlServer.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\EntityFramework.SqlServerCompact.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AI.Agent.Intercept.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AI.DependencyCollector.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -114,11 +225,28 @@ E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AI.Web.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AI.WindowsServer.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.ApplicationInsights.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AspNet.Identity.Owin.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Security.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Security.Google.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Security.Twitter.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Web.Infrastructure.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\MySql.Data.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\MySql.Data.Entity.EF6.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Newtonsoft.Json.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Owin.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Data.SQLite.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Data.SQLite.EF6.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Data.SQLite.Linq.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Data.SqlServerCe.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Web.Helpers.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Web.Mvc.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Web.Optimization.dll
@@ -127,9 +255,26 @@ E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Web.WebPages.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Web.WebPages.Razor.dll
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\WebGrease.dll
-E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\EntityFramework.xml
-E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\EntityFramework.SqlServer.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Antlr3.Runtime.pdb
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\EntityFramework.SqlServerCompact.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AI.DependencyCollector.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AI.Web.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AI.WindowsServer.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.ApplicationInsights.xml
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Security.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Security.Google.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Newtonsoft.Json.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Data.SQLite.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Data.SQLite.dll.config
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Web.Helpers.xml
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Web.Mvc.xml
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Web.Optimization.xml
@@ -137,10 +282,11 @@ E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Web.WebPages.xml
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Web.WebPages.Deployment.xml
 E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\System.Web.WebPages.Razor.xml
-E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Antlr3.Runtime.pdb
-E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Newtonsoft.Json.xml
-E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.ApplicationInsights.xml
-E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AI.DependencyCollector.xml
-E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AI.ServerTelemetryChannel.xml
-E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AI.WindowsServer.xml
-E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AI.Web.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\EntityFramework.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\EntityFramework.SqlServer.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\obj\Debug\Firma.csprojResolveAssemblyReference.cache
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\obj\Debug\Firma.dll
+E:\Faks\4. Semestar\Programski alati u programiranju\PAUP\novi\Firma-Studentski-projekt\Firma\Firma\obj\Debug\Firma.pdb
