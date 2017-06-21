@@ -1,6 +1,6 @@
 /*
-SQLyog Community v12.09 (64 bit)
-MySQL - 5.5.54-log : Database - firma1
+SQLyog Community v8.61 
+MySQL - 5.7.18-log : Database - firma1
 *********************************************************************
 */
 
@@ -28,11 +28,11 @@ CREATE TABLE `admin` (
   `mobitel` varchar(15) COLLATE cp1250_croatian_ci DEFAULT NULL,
   `lozinka` varchar(20) COLLATE cp1250_croatian_ci DEFAULT NULL,
   PRIMARY KEY (`id_admin`)
-) ENGINE=InnoDB AUTO_INCREMENT=123460 DEFAULT CHARSET=cp1250 COLLATE=cp1250_croatian_ci CHECKSUM=1 DELAY_KEY_WRITE=1 ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=cp1250 COLLATE=cp1250_croatian_ci CHECKSUM=1;
 
 /*Data for the table `admin` */
 
-insert  into `admin`(`id_admin`,`ime`,`prezime`,`adresa`,`mobitel`,`lozinka`) values (123459,NULL,NULL,NULL,NULL,NULL);
+insert  into `admin`(`id_admin`,`ime`,`prezime`,`adresa`,`mobitel`,`lozinka`) values (1,'as',NULL,NULL,NULL,NULL);
 
 /*Table structure for table `artikli` */
 
@@ -45,11 +45,11 @@ CREATE TABLE `artikli` (
   `cijena` decimal(7,2) DEFAULT NULL,
   `porez` int(11) NOT NULL,
   PRIMARY KEY (`id_artikla`)
-) ENGINE=InnoDB AUTO_INCREMENT=100016 DEFAULT CHARSET=cp1250 COLLATE=cp1250_croatian_ci CHECKSUM=1 DELAY_KEY_WRITE=1 ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=cp1250 COLLATE=cp1250_croatian_ci;
 
 /*Data for the table `artikli` */
 
-insert  into `artikli`(`id_artikla`,`ime_artikla`,`opis`,`cijena`,`porez`) values (100001,' MicroSD 128GB SONY','Memorijska kartica Sony microSD SONY SR10UYA s SD adapterom, kapaciteta 128 GB, brzina čitanja je 40mb/s.','729.00',25),(100002,'SD 32GB KINGSTON','Velike brzine za HD video. Kingston SDHC/SDXC Class 10 UHS-I je napravljena da bude brza, s smanjenom brzinom između ponovljenog zapisa čineći ju idealnom a full HD i 3D video.','149.00',25),(100003,'USB memorija Verbatim 16GB','USB2.0 Mini 16GB Neon Blue V049395','69.00',25),(100004,'Baterija za laptop Sony VAIO VGPBPSC24','Baterija za Sony Vaio prijenosna računala S13 serije.','329.70',25),(100005,'Pametna sportska narukvica GARMIN Vivofit 2 Wings for life','Ustanite i pokrenite se uz vívofit 2. To je jedini uređaj za praćenje aktivnosti sa zaslonom s pozadinskim osvjetljenjem i baterijom koja traje 1 godinu.','479.40',25),(100006,'Laptop ASUS X540SA-XX435D (15.6 HD N3060 Dual do 2.48GHz 4GB 1TB DOS) sivi','Intel Celeron Dual Core-N3060, 1,60 GHz, 4 GB, 15,6\", 1366x768, SATA 1000 GB, Free DOS, Intel® HD Graphics 400, DVD±RW, 802.11b/g/n,Bluetooth 4.0,LAN, HDMI 1, USB 2.0 1, USB 3.0 1, USB 3.1 1','2225.00',25),(100007,'Fotoaparat SONY DSC-RX100',' Za izradu sjajne fotografije dijeli vas samo tri koraka: ZEISS Vario-Sonnar T* F1,8 objektiv sa širokim otvorom blende hvata veći dio prizora, EXMOR CMOS senzor s 20,2 MP učinkovito hvata svjetlo','2899.00',25),(100008,'Televizor Samsung UE40K5582 LED SMART TV (T2/S2) bijeli','Full HD SMART televizor Samsung UE40K5582 40\" da je novu razinu televizijske stvarnosti. Jednostavno dijeljenje sadržaja na televizoru putem mobilnih uređaja. ','3199.20',25),(100009,'Bežični punjač za mobitel TRUST YUDO','Bežični punjač za mobitel TRUST YUDO, puni Qi kompatibilne smartphone, LED indikator stupnja punjenja, Micro-USB kabel, touch-and-charge tehnologija.','103.20',25),(100010,'RAM memorija za PC DDR4 Corsair Dominator Platinum 8x16GB 2800MHz DDR4','RAM memorija za PC DDR4 Corsair Dominator Platinum 8x16GB 2800MHz DDR4 CL14 1.35V Intel XMP 2.0 CMD128GX4M8B2800C14','10999.00',25),(100011,'Prijenosni zvučnik Car Bus Mini Speaker (USB)','Prijenosni zvučnik u obliku busa sa FM radiom, reproducira MP3 i MP4 formate glazbe. Uživajte u svojim omiljenim naslovima sa USB memorije, SD memorijske kartice ili drugih vaših povezanih uređaja putem vanjskog audio ulaza','299.00',25),(100012,'Tablet Samsung Galaxy Tab S2 T713 8.0\" 32GB crni','Galaxy Tab S2 T713 8.0\" 32GB pruža dosad neviđenu fleksibilnost. Uređaj je izuzetno tanak i lagan.','2999.00',25),(100013,'Igraća konzola Sony PlayStation PS4 500GB Slim D Chassis + COD: Infinite Warfare','PS4 Sony Playstation 4 Slim D Chassis igraća konzola. PlayStation®4 je dizajniran iz temelja kako bi omogućili tvorcima igara da mogu u potpunosti pretočiti svoje ideje u stvarnost.','2599.00',25),(100014,'Ručni GPS uređaj GARMIN Montana 680t','Bilo da pješačite, vozite se ili plovite, novi uređaj Garmin Montana 680t napravljen je da vas odvede kamo želite ići.','4499.00',25),(100015,'Igra za PC Battlefield 1','Battlefield 1 igra za PC. Igra je smještena u WWI setup, i prati povijesne događaje. Oružje je podijeljeno u dvije grupe - lagano i teško, a moći ćemo voziti tenkove, avione, oklopna vozila, jahati na konju te čak i upravljati bojnim brodovima','299.00',25);
+insert  into `artikli`(`id_artikla`,`ime_artikla`,`opis`,`cijena`,`porez`) values (1,'MicroSD 128GB SONY Memorijska kartica','Sony microSD SONY SR10UYA s SD adapterom, kapaciteta 128 GB','729.00',25),(2,'SD 32GB KINGSTON ','Velike brzine za HD video. Kingston SDHC/SDXC Class 10 UHS-I je napravljena da bude brza, s smanjenom brzinom između ponovljenog zapisa čineći ju idealnom a full HD i 3D video.','729.00',25),(3,'Ovo','Ono','22.20',25);
 
 /*Table structure for table `fraktura` */
 
@@ -99,14 +99,14 @@ DROP TABLE IF EXISTS `racun`;
 
 CREATE TABLE `racun` (
   `id_racun` int(11) NOT NULL AUTO_INCREMENT,
-  `id_artikla` int(11) NOT NULL,
-  `id_poslovni_partner` int(11) NOT NULL,
+  `id_artikla` int(11) DEFAULT NULL,
+  `id_poslovni_partner` int(11) DEFAULT NULL,
   PRIMARY KEY (`id_racun`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=42 DEFAULT CHARSET=utf8;
 
 /*Data for the table `racun` */
 
-insert  into `racun`(`id_racun`,`id_artikla`,`id_poslovni_partner`) values (1,1,12),(2,2,2),(14,0,0),(15,0,0),(16,0,0),(17,0,0),(18,0,0);
+insert  into `racun`(`id_racun`,`id_artikla`,`id_poslovni_partner`) values (38,1,1),(39,2,1),(40,3,2),(41,1,1);
 
 /*Table structure for table `tipovi_placanja` */
 
