@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Firma.Models.PoslovnaLogika.Racun>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_racun)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.id_artikla)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.id_poslovni_partner)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_racun)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_artikla)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_poslovni_partner)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id_racun }) |
+                @Html.ActionLink("Details", "Details", new { id = item.id_racun }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id_racun })
+            </td>
+        </tr>
+    }
+
+</table>

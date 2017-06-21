@@ -259,6 +259,10 @@
     <Content Include="Views\Partneri\Popis.cshtml" />
     <Content Include="Views\Admin\AssignRole.cshtml" />
     <Content Include="Views\Admin\CreateRole.cshtml" />
+    <Content Include="Views\Racun\Index.cshtml" />
+    <Content Include="Views\Racun\Unos.cshtml" />
+    <Content Include="Views\Racun\Popis.cshtml" />
+    <Content Include="Views\Racun\Details.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />
@@ -341,7 +345,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Racun\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

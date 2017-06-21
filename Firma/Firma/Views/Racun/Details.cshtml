@@ -1,0 +1,68 @@
+﻿@model Firma.Models.PoslovnaLogika.RacunViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="invoice-title">
+                <h2>Racun</h2><h3>@Html.DisplayFor(model => model.racuni.id_racun)</h3>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-xs-6">
+                    <address>
+                        <strong>Kupac:</strong><br>
+                        @Html.DisplayFor(model => model.partneri.naziv)<br>
+                       @Html.DisplayFor(model => model.partneri.adresa)<br>
+                        @Html.DisplayFor(model => model.partneri.email)<br>
+                        @Html.DisplayFor(model => model.partneri.oib)<br>
+                       
+                    </address>
+                </div>
+                
+                </div>
+            </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><strong>Košarica</strong></h3>
+                </div>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <td><strong>Šifra</strong></td>
+                                    <td class="text-center"><strong>Naziv</strong></td>
+                                    <td class="text-center"><strong>Cijena</strong></td>
+                                    <td class="text-right"><strong>Porez</strong></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- foreach ($order->lineItems as $line) or some such thing here -->
+                                <tr>
+                                    <td>@Html.DisplayFor(model => model.artikli.id_artikla)<br></td>
+                                    <td class="text-center">@Html.DisplayFor(model => model.artikli.ime_artikla)</td>
+                                    <td class="text-center">@Html.DisplayFor(model => model.artikli.cijena) Kn</td>
+                                    <td class="text-right">@Html.DisplayFor(model => model.artikli.porez) %</td>
+                                </tr>
+                               
+                               
+                                <tr>
+                                    <td class="no-line"></td>
+                                    <td class="no-line"></td>
+                                    <td class="no-line text-center"><strong>Ukupna cijena</strong></td>
+                                    <td class="no-line text-right">@Html.DisplayFor(model => model.artikli.cijena) Kn</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

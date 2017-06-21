@@ -7,9 +7,9 @@ namespace Firma.Models.PoslovnaLogika
 {
     public class RacunViewModel
     {
-        public List<Racun> racuni { get; set; }
-        public List<Artikli> artikli { get; set; }
-        public List<Poslovni_partner> partneri { get; set; }
+        public Racun racuni { get; set; }
+        public Artikli artikli { get; set; }
+        public Poslovni_partner partneri { get; set; }
 
 
     }

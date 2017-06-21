@@ -1,0 +1,41 @@
+﻿@model Firma.Models.PoslovnaLogika.Racun
+
+@{
+    ViewBag.Title = "RVM";
+}
+
+<h2>RVM</h2>
+
+@using (Html.BeginForm(("Index"), "Racun"))
+{
+    @Html.AntiForgeryToken()
+    <tr>
+        <td>
+            @Html.HiddenFor(model => model.id_racun)
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            @Html.DropDownListFor(model => model.id_artikla,
+                     new SelectList(ViewBag.List, "id_artikla", "ime_artikla"), new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.id_artikla, "", new { @class = "text-danger" })
+        </td>
+    </tr>
+
+    <tr>
+        <td>@Html.LabelFor(model => model.id_poslovni_partner, new { @class = "control-label" })</td>
+        <td>
+            @Html.DropDownListFor(model => model.id_poslovni_partner,
+                     new SelectList(ViewBag.List1, "id_poslovni_partner", "naziv"), new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.id_poslovni_partner, "", new { @class = "text-danger" })
+        </td>
+    </tr>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Kupi" class="btn btn-default" />
+        </div>
+    </div>
+
+}	
